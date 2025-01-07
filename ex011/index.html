@@ -16,5 +16,16 @@
         <source media="(max-width: 1050px)" srcset="imagens/MEDIA.png" type="image/png">
         <img src="imagens/GRANDE.png" alt="imagem flexível">
     </picture>
+
+    <!--forma simples de colocar áudio-->
+    <audio src="midia/mario_style_music.mp3" preload="metadata" controls></audio>
+
+    <!--Forma dinamica para colocar áudio-->
+    <audio preload="metadata" controls loop>
+        <source src="midia/mario_style_music.mp3" type="audio/mpeg">
+        <source src="midia/mario_style_music.ogg" type="audio/ogg">
+        <source src="midia/mario_style_music.wav" type="audio/wav">
+        <p>Seu navegador não suporta áudio. Baixe o <a href="midia/mario_style_music.mp3" type="audio/mpeg">áudio aqui</a></p>
+    </audio>
 </body>
 </html>
