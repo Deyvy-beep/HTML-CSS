@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a.especial:hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+a.especial::before {
+    content: '>>';
+    font-weight: lighter;
+}
+
+a.especial::after {
+    content: '<<';
+    font-weight: lighter;
+}
